@@ -10,12 +10,12 @@ const NavBar = function() {
 	// 		elem.className = 'nav-menu';
 	// 	}
 	// };
-	
+
 	return (
 		<div className="navbar-page">
 			<nav className={'navbar'}>
 				<Link to={'/'}>
-					<img src={'icon.png'} width={'35px'} alt={'logo'} />
+					<img src={'/icon.png'} width={'35px'} alt={'logo'} />
 				</Link>
 
 				<input placeholder={'Search...'} type={'text'} />
