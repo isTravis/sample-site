@@ -1,0 +1,50 @@
+.landing-page {
+	.background-wrapper {
+		background-image: url('/images/mountains.jpg');
+		background-repeat: no-repeat;
+		background-position: center center;
+		background-size: cover;
+		width: 100%;
+		padding: 4em 0em;
+		position: relative;
+		color: white;
+	}
+	.background-shader {
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		top: 0;
+		left: 0;
+		background-color: rgba(0, 0, 0, 0.35);
+	}
+	.title {
+		text-transform: uppercase;
+		font-weight: bold;
+	}
+	.description {
+		font-size: 1.5em;
+		padding: 2em 0em;
+		font-weight: 200;
+	}
+	.item {
+		padding: 1.5em 0em;
+		border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+		color: inherit;
+		text-decoration: none;
+		display: block;
+		&:hover {
+			background-color: #E0E0E0;
+		}
+		.item-name {
+			font-size: 1.25em;
+		}
+
+		.item-label {
+			opacity: 0.5;
+		}
+		.item-name, .item-label {
+			width: 100%;
+		}
+	}
+
+}
