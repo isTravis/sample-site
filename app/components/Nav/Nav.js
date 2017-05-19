@@ -14,11 +14,11 @@ const NavBar = function() {
 	return (
 		<div className="navbar-page">
 			<nav className={'navbar'}>
-				<Link to={'/'}>
-					<img src={'/icon.png'} width={'35px'} alt={'logo'} />
+				<Link to={'/'} className={'nav-icon'}>
+					<img src={'/icon.png'} width={'36px'} alt={'logo'} />
 				</Link>
 
-				<input placeholder={'Search...'} type={'text'} />
+				<input className={'nav-input'} placeholder={'Search...'} type={'text'} />
 				
 				{/*<a role={'button'} tabIndex={0} className={'right'} onClick={toggleSlide}>Menu</a>
 
