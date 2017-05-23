@@ -12,7 +12,7 @@ const Landing = function() {
 			label: 'person/scientist',
 		},
 		{
-			name: 'Janet McVulney',
+			name: 'Janett McVulney',
 			label: 'person/pilot',
 		},
 		{
