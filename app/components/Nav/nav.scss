@@ -12,6 +12,7 @@
 		width: 100%;
 		top: 0;
 		z-index: 1000000;
+		overflow: hidden;
 		.title-image {
 			height: 100%;
 		}
@@ -63,7 +64,7 @@
 		border-color: #c5c5c5;
 		border-style: solid;
 		outline: none;
-		width: 200px;
+		width: 150px;
 	}
 	.nav-buttons {
 		display: inline-block;
