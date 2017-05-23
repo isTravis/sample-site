@@ -34,6 +34,21 @@ h1 {
     word-wrap: normal;
 }
 
+.gradient-red, .mode-person {
+	background-image: linear-gradient(-41deg, #EA8C6D 0%, #FA6278 100%);
+}
+.gradient-blue, .mode-pub {
+	background-image: linear-gradient(-41deg, #6DEACB 0%, #6273FA 100%);
+}
+.gradient-purple, .mode-journal {
+	background-image: linear-gradient(-221deg, #736DEA 0%, #DE62FA 100%);
+}
+
+.mode-banner {
+	color: white;
+	padding: 0.5em 1em;
+	text-transform: capitalize;
+}
 // While there is some elegance to having components import their own .scss files,
 // and while this compiles just fine with webpack - I choose to import all of the scss files
 // into this main app.scss so that constants (e.g. $darkColor) can be used throughout.

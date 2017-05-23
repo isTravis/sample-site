@@ -55,7 +55,7 @@ class Entity extends Component {
 
 				<div className={'container'}>
 					<h1>{this.props.match.params.param}</h1>
-					<h3>{mode}</h3>
+					<div className={`mode-banner mode-${mode}`}>{mode} · Created June 12, 2016</div>
 					<div>
 						{Object.keys(connections).map((linkType)=> {
 							return (

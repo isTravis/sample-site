@@ -17,9 +17,18 @@
 		left: 0;
 		background-color: rgba(0, 0, 0, 0.35);
 	}
+	.negative-top {
+		margin-top: -2em;
+	}
 	.title {
-		text-transform: uppercase;
-		font-weight: bold;
+		color: white;
+		padding: 1em 3em 3em 1em;
+		h2 {
+			margin-bottom: 0em;
+		}
+		p {
+			margin: 0.25em;
+		}
 	}
 	.description {
 		font-size: 1.5em;

@@ -1,7 +1,8 @@
 /* eslint-disable import/prefer-default-export */
 
 export const apiFetch = function(path, opts) {
-	const urlPrefix = 'http://localhost:9876';
+	// const urlPrefix = 'http://localhost:9876';
+	const urlPrefix = 'http://89fc7b0f.ngrok.io';
 	const finalRoute = `${urlPrefix}/${path}`;
 
 	return fetch(finalRoute, {
