@@ -15,11 +15,16 @@ const NavBar = function() {
 		<div className="navbar-page">
 			<nav className={'navbar'}>
 				<Link to={'/'} className={'nav-icon'}>
-					<img src={'/icon.png'} width={'36px'} alt={'logo'} />
+					<img className={'title-image'} src={'/icon.png'} alt={'logo'} />
+					<span className={'title'}>Known</span>
 				</Link>
 
 				<input className={'nav-input'} placeholder={'Search...'} type={'text'} />
 				
+				<div className={'nav-buttons'}>
+					<Link to={'/'} className={'nav-button'}>About</Link>
+					<Link to={'/'} className={'nav-button'}>Contribute</Link>
+				</div>
 				{/*<a role={'button'} tabIndex={0} className={'right'} onClick={toggleSlide}>Menu</a>
 
 				<div role={'presentation'} className={'nav-menu'} onClick={toggleSlide}>

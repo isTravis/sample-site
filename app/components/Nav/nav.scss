@@ -12,8 +12,17 @@
 		width: 100%;
 		top: 0;
 		z-index: 1000000;
+		.title-image {
+			height: 100%;
+		}
+		.title {
+			vertical-align: top;
+			line-height: 34px;
+			display: inline-block;
+			font-weight: bold;
+			padding-left: 7px;
+		}
 	}
-
 	.nav-menu {
 		width: 80vw;
 		height: 100vh;
@@ -39,15 +48,31 @@
 	}
 
 	.nav-icon {
-		height: 36px;
-		padding: 7px 1em;
+		height: 34px;
+		padding: 8px 1em;
 		display: inline-block;
-		vertical-align: top;
+		// vertical-align: top;
 	}
 	.nav-input {
-		height: 24px;
-		margin: 10px 1em;
 		vertical-align: top;
+		height: calc(100% - 20px);
+		margin: 0px 1em;
+		padding: 10px 2em;
+		/* border: 0px; */
+		border-width: 0px 1px;
+		border-color: #c5c5c5;
+		border-style: solid;
+		outline: none;
+		width: 200px;
+	}
+	.nav-buttons {
+		display: inline-block;
+		vertical-align: top;
+		color: #2F2F2F;
+	}
+	.nav-button {
+		padding: 0em 1em;
+		display: inline-block;
 	}
 }
 
