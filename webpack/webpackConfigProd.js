@@ -87,7 +87,7 @@ module.exports = {
 			stripPrefix: 'static/',
 			mergeStaticsConfig: true, // Merge webpacks static outputs with the globs described above.
 			runtimeCaching: [{
-				urlPattern: /^https:\/\/api\.github\.com\//,
+				urlPattern: /^https:\/\/89fc7b0f\.ngrok\.io\//,
 				handler: 'fastest',
 				networkTimeoutSeconds: 5000,
 				options: {
